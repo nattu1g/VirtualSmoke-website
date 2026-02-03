@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="VirtualSmoke - タバコを吸ったつもりになれる禁煙支援アプリ">
     <title>VirtualSmoke - 禁煙アプリ</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="apple-touch-icon" href="images/icon.png">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,47 +17,70 @@
 </head>
 
 <body>
-    <!-- ヒーローセクション -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">VirtualSmoke</h1>
-            <p class="hero-subtitle">タバコを吸ったつもりになれる<br>禁煙支援アプリ</p>
-            <a href="#download" class="cta-button">App Storeでダウンロード</a>
-        </div>
-        <div class="hero-image">
-            <img src="images/app-mockup.png" alt="VirtualSmokeアプリ画面">
+    <!-- ヘッダー -->
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="images/icon.png" alt="VirtualSmoke Icon" class="app-icon">
+            <span class="app-name">VirtualSmoke</span>
         </div>
     </header>
 
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">吸ったつもりで、<br>禁煙を続ける。</h1>
+            <p class="hero-subtitle">リアルな煙と炎のアニメーションで、<br>喫煙の欲求を満たすストイックな禁煙アプリ。</p>
+            <a href="#download" class="cta-button">App Storeでダウンロード</a>
+        </div>
+        <div class="hero-image-container">
+            <img src="images/screenshot_smoking.png" alt="VirtualSmoke 喫煙画面" class="hero-image">
+        </div>
+    </section>
+
     <!-- 機能紹介セクション -->
     <section class="features" id="features">
-        <h2 class="section-title">機能</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <div class="feature-icon">🚬</div>
-                <h3>リアルな喫煙体験</h3>
-                <p>ボタンを押している間、タバコの火がリアルに縮んでいきます。</p>
+        <div class="features-wrapper">
+            <h2 class="section-title">Features</h2>
+
+            <div class="feature-block">
+                <div class="feature-text">
+                    <div class="feature-icon">🔥</div>
+                    <h3>リアルな喫煙体験</h3>
+                    <p>画面を長押しすると、火が灯り、徐々にタバコが燃えていきます。<br>指を離すと紫煙がくゆり、視覚的・感覚的に喫煙の代償行為を提供します。</p>
+                </div>
             </div>
-            <div class="feature-card">
-                <div class="feature-icon">💨</div>
-                <h3>煙エフェクト</h3>
-                <p>ボタンを離すと、リアルな煙が画面に広がります。</p>
+
+            <div class="feature-block reverse">
+                <div class="feature-image-container">
+                    <img src="images/screenshot_stats.png" alt="VirtualSmoke 統計画面" class="feature-image">
+                </div>
+                <div class="feature-text">
+                    <div class="feature-icon">📊</div>
+                    <h3>成果の可視化</h3>
+                    <p>禁煙した本数、日数、そして節約できた金額。<br>あなたの努力をシンプルかつ美しく可視化します。</p>
+                </div>
             </div>
-            <div class="feature-card">
-                <div class="feature-icon">📊</div>
-                <h3>禁煙統計</h3>
-                <p>禁煙日数、節約金額、避けた本数を記録・表示します。</p>
+
+            <div class="feature-block">
+                <div class="feature-text">
+                    <div class="feature-icon">❤️</div>
+                    <h3>開発支援</h3>
+                    <p>アプリが気に入ったら、開発者を支援することも可能です。<br>あなたのサポートが、アプリの継続的な改善に繋がります。</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ダウンロードセクション -->
     <section class="download" id="download">
-        <h2 class="section-title">ダウンロード</h2>
-        <p class="download-text">iOS版をApp Storeで無料ダウンロード</p>
-        <a href="#" class="app-store-badge">
-            <img src="images/app-store-badge.svg" alt="App Storeからダウンロード">
-        </a>
+        <div class="download-content">
+            <img src="images/icon.png" alt="VirtualSmoke Icon" class="download-icon">
+            <h2 class="section-title">今すぐ禁煙を始める</h2>
+            <p class="download-text">シンプルで美しい禁煙アプリ。<br>iOS版をApp Storeで無料ダウンロード。</p>
+            <a href="#" class="app-store-badge">
+                <img src="images/app-store-badge.svg" alt="App Storeからダウンロード">
+            </a>
+        </div>
     </section>
 
     <!-- フッター -->
